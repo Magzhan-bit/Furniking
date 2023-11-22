@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Rubik", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Mulish";
 }
 
 .header {
@@ -106,7 +106,7 @@ del {
 .hero__select {
   width: 260px;
   height: auto;
-  margin-left: 104px;
+  
   margin-right: 10px;
 }
 .hero__select h3 {
@@ -141,6 +141,9 @@ del {
 
 .hero {
   display: flex;
+	padding-bottom: 20px;
+	position: relative;
+  justify-content: center;
 }
 
 .hero__list {
@@ -237,178 +240,83 @@ button {
   display: inline-block;
   margin-left: 104px;
 }
-.main img {
-  position: absolute;
+
+.offer-block-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1px;
+	justify-content: center;
 }
-.main b {
-  position: absolute;
-  width: 301px;
-  height: 26px;
-  left: 34px;
-  top: 25px;
-  display: inline;
-  font-family: "Mulish";
-  font-style: normal;
+.offer-block-main{
+	position: relative;
+	flex: 0 1 699px;
+}
+.offer-block-sub{
+	display: flex;
+	flex-direction: column;
+	gap: 17px;
+}
+.offer-block-sub-body{
+	position: relative;
+	padding: 52px 144px 96px 24px;
+}
+.offer-sub-body{
+	z-index: 2;
+	position: relative;
+}
+.offer-main-body{
+	z-index: 2;
+	position: relative;
+	padding-top: 50px;
+	padding-left: 31px;
+	padding-bottom: 361px;
+}
+.offer-main-title{
+	font-family: 'Mulish';
   font-weight: 700;
   font-size: 22px;
-  line-height: 26px;
-  display: flex;
-  align-items: center;
+  line-height: 118%;
   color: #555555;
 }
-.main p {
-  position: absolute;
-  left: 34px;
-  top: 55px;
-  display: inline;
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 26px;
-  width: 179px;
-  height: 26px;
-  display: flex;
-  align-items: center;
-  color: #7AC751;
+.offer-main-decs{
+	font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #7AC751;
+    padding-top: 10px;
+    padding-bottom: 13px;
 }
-.main span {
-  position: absolute;
-  width: 81px;
-  height: 26px;
-  left: 34px;
-  top: 85px;
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  display: flex;
-  align-items: center;
-  color: #757575;
+.offer-main-link{
+	font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #757575;
+    padding-right: 17px;
+    position: relative;
 }
-
-.main2 {
-  position: relative;
-  display: inline-block;
-  margin-left: 690px;
+.offer-main-link:after{
+	content: url('img/arrow-grey-right.svg');
+	position: absolute;
+	top: -2px;
+	right: 0;
 }
-.main2 img {
-  position: absolute;
+.offer-main-link:hover{
+	text-decoration: underline;
 }
-.main2 b {
-  position: absolute;
-  width: 301px;
-  height: 26px;
-  left: 34px;
-  top: 25px;
-  display: inline;
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 26px;
-  display: flex;
-  align-items: center;
-  color: #555555;
-}
-.main2 p {
-  position: absolute;
-  left: 34px;
-  top: 55px;
-  display: inline;
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 26px;
-  width: 179px;
-  height: 26px;
-  display: flex;
-  align-items: center;
-  color: #7AC751;
-}
-.main2 span {
-  position: absolute;
-  width: 81px;
-  height: 26px;
-  left: 34px;
-  top: 85px;
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  display: flex;
-  align-items: center;
-  color: #757575;
-}
-
-.main_section {
-  display: block;
-}
-
-.main3 {
-  position: relative;
-  display: inline-block;
-  margin-left: 800px;
-  margin-top: 260px;
-}
-.main3 img {
-  position: absolute;
-}
-.main3 b {
-  position: absolute;
-  width: 301px;
-  height: 26px;
-  left: 34px;
-  top: 25px;
-  display: inline;
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 26px;
-  display: flex;
-  align-items: center;
-  color: #555555;
-}
-.main3 p {
-  position: absolute;
-  left: 34px;
-  top: 55px;
-  display: inline;
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 26px;
-  width: 179px;
-  height: 26px;
-  display: flex;
-  align-items: center;
-  color: #7AC751;
-}
-.main3 span {
-  position: absolute;
-  width: 81px;
-  height: 26px;
-  left: 34px;
-  top: 85px;
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  display: flex;
-  align-items: center;
-  color: #757575;
+.offer-main-img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
 }
 
 .trending {
   display: block;
   text-align: center;
-  margin-top: 280px;
+  margin-top: 80px;
 }
 
 .tranding__list {
@@ -434,11 +342,13 @@ button {
 }
 
 .card {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 0;
-  padding: 25px;
-  flex-wrap: wrap;
+  margin-top: 58px;
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
 }
 .card li {
   display: inline;
@@ -472,20 +382,52 @@ button {
   color: #7AC751;
 }
 
+.header-logo-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header-logo-name{
+	color: #555;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .footer {
   background-color: rgb(255, 255, 255);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 30px;
   padding: 30px;
+  padding-bottom: 75px;
 }
 .footer .footer__text {
   width: 318px;
 }
+
+.footer-body-media{
+	padding-top: 18px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	align-items: center;
+}
+.footer-media-item{
+	width: 32.2px;
+    height: 32.2px;
+	border-radius: 50%;
+	background: white;
+	text-align: center;
+}
+
 .footer li {
   list-style-type: none;
   cursor: pointer;
-  line-height: 30px;
+  line-height: 35px;
 }
 
 .rating {
@@ -497,14 +439,6 @@ button {
 }
 
 /* ----------------special offer------------------------- */
-
-.special {
-  display: block;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-
 .newoffer-block-header{
   font-family: Mulish;
   font-size: 36px;
@@ -518,8 +452,10 @@ button {
 .newoffer-block-body{
 	padding-top: 60px;
 	display: flex;
+	flex-wrap: wrap;
+	padding-top: 56px;
 	justify-content: center;
-	gap: 30px;
+	gap: 20px;
 }
 .newoffer-body-item{
 	position: relative;
@@ -574,11 +510,12 @@ button {
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 125%;
+  border: 0px;
 	color: #FFFFFF;
 	padding: 7px 10px;
 	background: #7AC751;
-    border-radius: 2px;
-    transition: all 0.2s ease 0s;
+  border-radius: 2px;
+  transition: all 0.2s ease 0s;
 }
 .newoffer-action-button:hover{
 	background: #67A845;
@@ -594,7 +531,7 @@ button {
 .newoffer-item-lable{
 	padding-top: 7px;
 	width: 40px;
-	height: 33px;
+	height: 40px;
 	border-radius: 50%;
 	background: #7AC751;
 	font-weight: 500;
@@ -727,7 +664,7 @@ letter-spacing: 0.08px;
 
 /* ------------------Koziavka------------------------- */
 .articles-block-container{
-	padding-bottom: 115px;
+	padding-bottom: 65px;
 }
 .articles-block-header{
 	text-align: center;
@@ -757,10 +694,10 @@ letter-spacing: 0.08px;
 }
 .article-header-tag{
 	background: #F8FAFB;
-    border-radius: 3px;
-    padding: 5px 5px 5px 24px;
-    color: #7AC751;
-    font-family: 'DM Sans';
+  border-radius: 3px;
+  padding: 5px 5px 5px 24px;
+  color: #7AC751;
+  font-family: 'DM Sans';
 	font-weight: 500;
 	font-size: 12px;
 	line-height: 130%;
@@ -769,9 +706,9 @@ letter-spacing: 0.08px;
 	position: relative;
 }
 .article-header-tag:before{
-	content: url('img/page/icons/discount-icon.svg');
+	content: url('../img/ic24-tag\ 1.png');
 	position: absolute;
-	top: 7px;
+	top: 4px;
 	left: 5px;
 }
 .article-header-date{
@@ -820,4 +757,150 @@ letter-spacing: 0.08px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+/* ---------------------footer koziavka------------------------------------ */
+footer .bottom-details{
+  padding-top: 10px;
+  border-top: #969696 solid 0.5px;
+  width: 100%;
+  background: #fff;
+}
+footer .bottom-details .bottom_text{
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a{
+  color: #555;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+  text-decoration: none;
+}
+.bottom-details .bottom_text a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+.bottom-details .bottom_text a{
+  margin-right: 10px;
+}
+
+.policy_terms {
+	font-size: 14px;
+  line-height: 100%;
+  color: #555555;
+  word-spacing: 51px;
+}
+
+/* ---------------page next----------------------------- */
+.pagination {
+  padding-left: 36%;
+  text-align: center;
+  margin: 45px;
+  color: #757575;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 23.4px */
+  letter-spacing: 0.144px;
+}
+
+button {
+  padding: 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.prev-button {
+  background-color: #7AC751;
+  padding: 4px;
+  color: white;
+  border: none;
+  font-size: 20px;
+  width: 60px;
+  border-radius: 4px;
+}
+
+.next-button {
+  background-color: #7AC751;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-right: 220px;
+}
+
+.prev-button:hover, .next-button:hover {
+  background-color: #7AC751;
+}
+
+.page-info {
+  margin: 0 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* ------------------knopki koziavki--------------------------- */
+.trending-block-pagination{
+	text-align: center;
+	padding-top: 58px;
+}
+.pagination-button{
+  border: 1px;
+	width: 7px;
+  height: 7px;
+  background: #CCCCCC;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 14px;
+}
+.pagination-button:after{
+	content: '';
+	position: absolute;
+	width: 12px;
+  height: 12px;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  top: 3px;
+  left: 4px;
+}
+.pagination-button-active{
+	background: #7AC751;
+}
+.pagination-button-active:after{
+	content: '';
+	position: absolute;
+	width: 12px;
+  height: 12px;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  top: 3px;
+  left: 4px;
+}
+
+.usereimg2 {
+  display: flex;
+  width: 76px;
+  height: 76px;
+  transform: rotate(180deg);
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.usereimg1 {
+  display: flex;
+  width: 76px;
+  height: 76px;
+  transform: rotate(0deg);
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }

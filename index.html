@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>Furniking</title>
 </head>
-
 <body>
     <div class="header">
         <h2 class="header__title">Welcome to our online shop</h2>
@@ -76,26 +75,42 @@
         <li class="main__card-item"><img src="./img/Payment.svg" alt=""></li>
         <li class="main__card-item"><img src="./img/support.svg" alt=""></li>
     </ul>
-    <section class="main_section">
-        <span class="main">
-            <img src="./img/mainbg.png" alt="">
-            <b>Modern Furniture Collections</b>
-            <p>Starting from $500</p>
-            <span>Read more</span>
-        </span>
-        <span class="main2">
-            <img src="./img/mainbg2.png" alt="">
-            <b>Modern Furniture Collections</b>
-            <p>Starting from $500</p>
-            <span>Read more</span>
-        </span>
-        <span class="main3">
-            <img src="./img/mainbg3.png" alt="">
-            <b>Modern Furniture Collections</b>
-            <p>Starting from $500</p>
-            <span>Read more</span>
-        </span>
-    </section>
+    <div class="offer-block">
+                    <div class="offer-block-container _container">
+                        <div class="offer-block-main">
+                            <div class="offer-main-body">
+                                <h3 class="offer-main-title">Modern Furniture Collections</h3>
+                                <p class="offer-main-decs">Starting from $500</p>
+                                <a href="#" class="offer-main-link">Read more</a>
+                            </div>
+                            <div class="offer-main-img _bg-img">
+                                <img src="img/mainbg.png" alt="" class="offer-main-bg">
+                            </div>
+                        </div>
+                        <div class="offer-block-sub">
+                            <div class="offer-block-sub-body">
+                                <div class="offer-sub-body">
+                                    <h3 class="offer-main-title">Geometric Bookcase</h3>
+                                    <p class="offer-main-decs">Up to 20% discount</p>
+                                    <a href="#" class="offer-main-link">Read more</a>
+                                </div>
+                                <div class="offer-main-img _bg-img">
+                                    <img src="img/mainbg2.png" alt="" class="offer-main-bg">
+                                </div>
+                            </div>
+                            <div class="offer-block-sub-body">
+                                <div class="offer-sub-body">
+                                    <h3 class="offer-main-title">Minimal Sofa collections </h3>
+                                    <p class="offer-main-decs">Sale upto 40% discount</p>
+                                    <a href="#" class="offer-main-link">Read more</a>
+                                </div>
+                                <div class="offer-main-img _bg-img">
+                                    <img src="img/mainbg3.png" alt="" class="offer-main-bg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
     <h2 class="trending">TRENDING</h2>
     <ul class="tranding__list">
         <li class="trending__list-item active">Top Products</li>
@@ -169,6 +184,10 @@
             <span class="rating">★★★★☆</span> 
         </li>
     </ul>
+    <div class="trending-block-pagination">
+        <button class="pagination-button"></button>
+        <button class="pagination-button  pagination-button-active"></button>
+    </div>
     <div class="newoffer-block">
         <div class="newoffer-block-container _container">
             <div class="newoffer-block-header">
@@ -298,8 +317,16 @@
             <span class="rating">★★★★☆</span> 
         </li>
     </ul>
+    <div class="pagination">
+        <button class="next-button">Next Page &gt;</button>
+        <span class="page-info">Page 1 of 100</span>
+        <button class="prev-button" disabled>&lt; &gt;</button>
+    </div>
     <h2 class="trending3">What Our Customer Says</h2>
     <div class="slide-container">
+        <div class="usereimg1">
+            <img src="img/expand_more.png" alt="">
+        </div>
         <div class="slide">
             <div class="userimg">
                 <img src="img/Image Placeholder.png" alt="">
@@ -307,6 +334,9 @@
             <p>I like Furniking.com and as compared to other company it's polices and customers support is very good easy to reach., also many time they unable to delivered. The ultricies are pregnant while the quis is suspended. Risus commodo viverra maecenas accumsan lacus vel facilisist amet.</p>
             <h4>Angelina Joly</h4>
             <h5>Co-founder</h5>
+        </div>
+        <div class="usereimg2">
+            <img src="img/expand_more.png" alt="">
         </div>
     </div>
     <div class="articles-block">
@@ -373,8 +403,33 @@
     <footer>
         <ul class="footer">
             <li>
-                <img src="./img/Logo (1).png" alt="">
+                <div class="header-logo-link">
+                    <img src="./img/Group.svg" alt="">
+                <span class="header-logo-name">Furniking</span>
+                </div>
                 <p class="footer__text">Funking is the a popular Ecommerce site. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                <div class="footer-body-media">
+                    <div class="footer-media-item">
+                        <a href="#" class="footer-media-link">
+                            <img src="img/icons/facebook-icon.svg" alt="" class="footer-media-icon">
+                        </a>
+                    </div>
+                    <div class="footer-media-item">
+                        <a href="#" class="footer-media-link">
+                            <img src="img/icons/twitter-icon.svg" alt="" class="footer-media-icon">
+                        </a>
+                    </div>
+                    <div class="footer-media-item">
+                        <a href="#" class="footer-media-link">
+                            <img src="img/icons/instagram-icon.svg" alt="" class="footer-media-icon">
+                        </a>
+                    </div>
+                    <div class="footer-media-item">
+                        <a href="#" class="footer-media-link">
+                            <img src="img/icons/pinterset-icon.svg" alt="" class="footer-media-icon">
+                        </a>
+                    </div>
+                </div>
             </li>
             <li><b>Help</b>
                 <p>Privacy Policy<br>Shipping & Delivery<br>Refund Policy <br>Track Your  Order</p>
@@ -388,6 +443,16 @@
                 <p>Feedbcak <br>Contact us <br>Download app <br>Terms conditins</p>
             </li>
         </ul>
+        <div class="bottom-details">
+            <div class="bottom_text">
+              <span class="copyright_text">© 2021 Funking - All rights reserved.</span>
+              <span class="policy_terms">
+                <a href="#">Privacy</a>
+                <a href="#">Security</a>
+                <a href="#">Terms</a>
+              </span>
+            </div>
+          </div>   
     </footer>
     <script src="./js/script.js"></script>
 </body>
